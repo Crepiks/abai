@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 400ms;
+  cursor: pointer;
+}
+
+.container:hover {
+  background-color: #d8d8d8;
+}
+
+.chevron {
+  width: 40px;
+}

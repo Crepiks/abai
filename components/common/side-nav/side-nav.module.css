@@ -1,4 +1,4 @@
-.container {
+.closedContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,10 +6,27 @@
   cursor: pointer;
 }
 
-.container:hover {
+.closedContainer:hover {
   background-color: #d8d8d8;
 }
 
 .chevron {
   width: 40px;
+}
+
+.openContainer {
+  width: 20%;
+  height: 100vh;
+  padding: 80px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: white;
+  background-color: black;
+}
+
+.link {
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-transform: uppercase;
 }

@@ -1,4 +1,4 @@
-.closedContainer {
+.openButton {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,16 +6,15 @@
   cursor: pointer;
 }
 
-.closedContainer:hover {
-  background-color: #d8d8d8;
-}
-
 .chevron {
   width: 40px;
 }
 
-.openContainer {
-  width: 20%;
+.sideNav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20vw;
   height: 100vh;
   padding: 80px 40px;
   display: flex;
@@ -23,6 +22,12 @@
   align-items: flex-end;
   color: white;
   background-color: black;
+  transform: translateX(-100%);
+  transition: 300ms;
+}
+
+.sideNavOpen {
+  transform: translateX(0);
 }
 
 .link {

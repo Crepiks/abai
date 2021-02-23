@@ -1,10 +1,17 @@
+import { Fragment } from "react";
 import Link from "next/link";
+import classNames from "classnames";
 import styles from "./side-nav.module.css";
 
-export default function SideNav({ className, open = false }) {
-  if (open) {
-    return (
-      <nav className={className + " " + styles.openContainer}>
+export default function SideNav({ className, open = false, onOpen, onLeave }) {
+  return (
+    <Fragment>
+      <nav
+        onMouseLeave={onLeave}
+        className={classNames(styles.sideNav, {
+          [styles.sideNavOpen]: open,
+        })}
+      >
         <span className={styles.link}>
           <Link href="/">Главная</Link>
         </span>
@@ -24,16 +31,16 @@ export default function SideNav({ className, open = false }) {
           <Link href="/">Письма</Link>
         </span>
       </nav>
-    );
-  } else {
-    return (
-      <nav className={className + " " + styles.closedContainer}>
+      <nav
+        onMouseOver={onOpen}
+        className={classNames(className, styles.openButton)}
+      >
         <img
           src="/icons/chevron-right.svg"
           alt="Chevron Icon"
           className={styles.chevron}
         />
       </nav>
-    );
-  }
+    </Fragment>
+  );
 }

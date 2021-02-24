@@ -1,0 +1,13 @@
+.container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.heading {
+  margin-bottom: 30px;
+}
+
+.event {
+  margin-bottom: 50px;
+}

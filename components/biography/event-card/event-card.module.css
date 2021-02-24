@@ -1,0 +1,14 @@
+.subheading {
+  color: #c3c3c3;
+  font-size: 14px;
+}
+
+.heading {
+  margin: 5px 0 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.description {
+  margin-top: 10px;
+}

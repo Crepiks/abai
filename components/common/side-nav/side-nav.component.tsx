@@ -16,7 +16,7 @@ export default function SideNav({ className, open = false, onOpen, onLeave }) {
           <Link href="/">Главная</Link>
         </span>
         <span className={styles.link}>
-          <Link href="/">Биография</Link>
+          <Link href="/biography">Биография</Link>
         </span>
         <span className={styles.link}>
           <Link href="/">Современники</Link>

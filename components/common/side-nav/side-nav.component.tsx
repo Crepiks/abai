@@ -19,7 +19,7 @@ export default function SideNav({ className, open = false, onOpen, onLeave }) {
           <Link href="/biography">Биография</Link>
         </span>
         <span className={styles.link}>
-          <Link href="/">Современники</Link>
+          <Link href="/contemporaries">Современники</Link>
         </span>
         <span className={styles.link}>
           <Link href="/">Труды</Link>

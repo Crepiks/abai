@@ -1,0 +1,25 @@
+.container {
+  max-height: 200px;
+  display: flex;
+}
+
+.image {
+  width: 40%;
+  margin-right: 10px;
+}
+
+.years {
+  font-size: 12px;
+}
+
+.name {
+  margin: 5px 0 0;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.description {
+  margin: 10px 0 0;
+  font-size: 14px;
+}

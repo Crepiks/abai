@@ -11,7 +11,16 @@ export default function Home() {
       </Head>
       <MainLayout>
         <div className={styles.container}>
-          <h1 className={styles.heading}>Abai</h1>
+          <div className={styles.content}>
+            <h1 className={styles.heading}>Abai</h1>
+            <p className={styles.description}>
+              Абай Кунанба́ев — казахский поэт, композитор, просветитель,
+              мыслитель, общественный деятель, основоположник казахской
+              письменной литературы и её первый классик, реформатор культуры в
+              духе сближения с европейской культурой на основе просвещённого
+              ислама.
+            </p>
+          </div>
         </div>
       </MainLayout>
     </div>

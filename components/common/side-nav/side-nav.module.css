@@ -11,8 +11,17 @@
   cursor: pointer;
 }
 
+.transparent {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+  background-color: black;
+  opacity: 0.08;
+}
+
 .chevron {
-  width: 40px;
+  width: 55px;
 }
 
 .sideNav {

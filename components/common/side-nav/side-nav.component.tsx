@@ -35,6 +35,7 @@ export default function SideNav({ className, open = false, onOpen, onLeave }) {
         onMouseOver={onOpen}
         className={classNames(className, styles.openButton)}
       >
+        <div className={styles.transparent} />
         <img
           src="/icons/chevron-right.svg"
           alt="Chevron Icon"

@@ -1,6 +1,7 @@
 .container {
   max-height: 200px;
   display: flex;
+  overflow: hidden;
 }
 
 .image {

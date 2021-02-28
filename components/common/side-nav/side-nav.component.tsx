@@ -22,13 +22,7 @@ export default function SideNav({ className, open = false, onOpen, onLeave }) {
           <Link href="/contemporaries">Современники</Link>
         </span>
         <span className={styles.link}>
-          <Link href="/">Труды</Link>
-        </span>
-        <span className={styles.link}>
-          <Link href="/">Литература</Link>
-        </span>
-        <span className={styles.link}>
-          <Link href="/">Письма</Link>
+          <Link href="/works">Труды</Link>
         </span>
       </nav>
       <nav

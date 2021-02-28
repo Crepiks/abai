@@ -7,7 +7,7 @@
 }
 
 .content {
-  width: 45%;
+  width: 40%;
   margin-top: 10vh;
   margin-left: 10%;
   display: flex;
@@ -23,4 +23,5 @@
   margin: 0;
   font-size: 18px;
   font-weight: 500;
+  line-height: 1.3;
 }
